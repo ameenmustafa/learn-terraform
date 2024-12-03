@@ -2,10 +2,27 @@ variable "sample_string"{
     default = "hello world"
     }
 
-output "sample_string"{
-    value = var.sample_string
+variable "sample_number"{
+    default = 100
     }
 
-output "sample_string1"{
-    value = "the output for the stringm ${var.sample_string}"
+variable "sample_boolean"{
+    default = true
+    }
+
+variable "sample_list"{
+    default = [
+        100,
+        yellow,
+        true,
+        123
+        ]
+    }
+
+variable "sample_dict"{
+    default = {
+        number1 =101
+        string1 = "apple"
+        boolean = true
+        }
     }
