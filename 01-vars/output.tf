@@ -14,3 +14,11 @@ output "sample_list1"{
 output "sample_dictionary"{
     value = var.sample_dict["number1"]
     }
+
+output "env"{
+    value = var.env
+    }
+
+output "auto_num1"{
+    value = var.auto_num1
+    }

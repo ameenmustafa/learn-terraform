@@ -4,7 +4,8 @@ variable "sample_string"{
 
 variable "sample_number"{
     default = 100
-    }
+      }
+
 
 variable "sample_boolean"{
     default = true
@@ -26,3 +27,6 @@ variable "sample_dict"{
         boolean = true
         }
     }
+
+variable "env" {}
+variable "auto_num1" {}
