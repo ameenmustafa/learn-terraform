@@ -15,10 +15,10 @@ output "sample_dictionary"{
     value = var.sample_dict["number1"]
     }
 
-output "env"{
+output "env32"{
     value = var.env
     }
 
-output "auto_num1"{
+output "auto_num12"{
     value = var.auto_num1
     }
