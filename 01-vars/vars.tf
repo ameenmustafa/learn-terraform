@@ -13,7 +13,7 @@ variable "sample_boolean"{
 variable "sample_list"{
     default = [
         100,
-        yellow,
+        "yellow",
         true,
         123
         ]
