@@ -1,3 +1,3 @@
-output "shop"{
+output "shop" {
     value = var.shop
     }

@@ -1,1 +1,4 @@
-variable "shop"{}
+variable "shop" {
+  location = "india"
+  color = "red"
+}
